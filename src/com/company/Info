@@ -1,0 +1,169 @@
+Electronics
+
+Pokedex
+
+Attributes:
+Name: String
+Description:
+Should output the following:
+“A device belonging to <NAME>”
+This device is used to keep track of encountered pokemon.
+Battery (in days): int
+Wattage Used: int
+Holds: ArrayList<Pokemon>
+Owner: Pokemon Trainer Object
+Actions:
+void powerOn() -> Should output the following:
+Message saying “Powering on device”
+Message saying “Loading Pokedex”
+
+Pokeputer
+
+Attributes:
+Name: String
+Description:
+Should output the following:
+“A device belonging to <NAME>”
+“This device is used for many common activities such as email.”
+Battery (in days): int
+Wattage Used: double
+Owner: Any Person Object
+Actions:
+void powerOn() -> Should output the following:
+Message saying “Powering on device”
+Message saying “Booting into computer”
+Buildings
+
+Pokemon Center
+
+Attributes:
+Name: String
+City: String
+Description: String
+Actions:
+void greet() -> Should output the following:
+Message saying “Welcome!”
+Message saying “May we heal your Pokemon?”
+Pokemart
+
+Attributes:
+Name: String
+Region: String
+Description: String
+Actions:
+void greet() -> Should output the following:
+Message saying “Welcome!”
+Message saying “Can I interest you in our latest inventory?”
+
+Items (Pokeballs)
+
+
+Regular Ball
+
+Attributes:
+
+Name: String
+Description: String
+
+Capture Rate: int
+Actions:
+void capture() -> Should output the following:
+Message saying “You threw a <NAME>!”
+
+Great Ball
+
+Attributes:
+Name: String
+Description: String
+Capture Rate: int
+Actions:
+void capture() -> Should output the following:
+Message saying “You threw a <NAME>!”
+
+Ultra Ball
+
+Attributes:
+Name: String
+Description: String
+Capture Rate: int
+Actions:
+void capture() -> Should output the following:
+Message saying “You threw a <NAME>!”
+Message saying “Odds are looking pretty good!”
+
+Master Ball
+
+Attributes:
+Name: String
+Description: String
+Capture Rate: int
+Actions:
+void capture() -> Should output the following:
+Message saying “You threw a <NAME>!”
+Message saying “It’ll never miss!”
+
+Items (Potions)
+
+
+Regular Potion
+
+Attributes:
+Name: String
+Description: String
+Price: double
+HealingValue: int
+Actions:
+void use() -> Should output the following:
+Message saying “You used <NAME>”
+Message saying “You don’t feel much better”
+Super Potion
+
+Name: String
+Description: String
+Price: double
+HealingValue: int
+Actions:
+void use() -> Should output the following:
+Message saying “You used <NAME>”
+Message saying “You feel a bit better”
+Hyper Potion
+
+Name: String
+Description: String
+Price: double
+HealingValue: int
+Actions:
+void use() -> Should output the following:
+Message saying “You used <NAME>”
+Message saying “You feel much better!”
+
+People
+
+Trainers
+
+Attributes:
+Name: String
+Description: String
+Actions:
+void greet() -> Should output the following:
+Message saying “Hi, I’m <NAME>!”
+Message saying “Let’s Battle!”
+
+Nurse Joy
+
+Name: String
+Description: String
+Actions:
+void greet() -> Should output the following:
+Message saying “Hi, I’m <NAME>!”
+Message saying “Need some healing?”
+
+Shopkeeper
+
+Name: String
+Description: String
+Items for Sale: ArrayList<Items>
+Actions:
+void greet() -> Should output the following:
+Message saying “Hi, I’m <NAME>!”
+Message saying “Need to buy anything?!”
